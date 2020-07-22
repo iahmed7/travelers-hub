@@ -1,10 +1,23 @@
+@font-face{
+  font-family: "Arian";
+  src: url("/assets/ArianLT-Regular Regular.ttf");
+}
+
 * {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-family: 'Arian' !important;
 }
 
 @keyframes fadein {
   from { opacity: 0; }
   to   { opacity: 1; }
+}
+ 
+h1 {
+  color:rgba(255, 191, 0);
+}
+
+h2 {
+  color:gray;
 }
 
 /* Firefox < 16 */
@@ -49,7 +62,9 @@ a:hover {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background: black;
+  /* background: black; */
+  background-color: rgba(0, 0, 0, 0.95);
+ 
 }
 
 video #bgvideo {
@@ -101,19 +116,40 @@ background-size: cover;
 }
 
 #hero {
-  width: 100%;
+  width: 100vw;
   height: 90vh;
   padding: 0 0 0 0;
-  background: black;
-position: relative;
-  z-index: 1;
+  /* background: black; */
+  background-image: url(../assets/hero-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-attachment: fixed;
+  /* background-color:rgba(0, 0, 0, 0.5);; */
+  
+  /* position: relative;
+  z-index: 1; */
   /* background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
+}
+
+#about {
+	padding: 70px 0px;
+  background-image: url(../assets/about-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-attachment: fixed;
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100%;
+  /* margin: auto; */
 }
 
 .hero-cont{
   height: 90vh;
-	position: relative;
-  z-index: 1;
+  /* width: 100vw; */
+	/* position: relative;
+  z-index: 1; */
 }
 
 section {
@@ -126,13 +162,13 @@ section {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: gold;
-  font-family: "Poppins", sans-serif;
+  color:rgba(255, 191, 0);
+  /* font-family: "Poppins", sans-serif; */
+  margin-bottom: 30px;
 }
 
 #hero h2 {
-  color: white;
-  margin-bottom: 30px;
+  color:gray;
   font-size: 22px;
 }
 
