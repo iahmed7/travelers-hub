@@ -11,7 +11,7 @@
 }
 
 * {
-  font-family: 'ArianLT-Regular' !important;
+  font-family: 'ArianLT-Regular', Arial, Helvetica, sans-serif !important;
 }
 
 @keyframes fadein {
