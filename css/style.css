@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'ArianLT';
+  font-family: 'ArianLT-Regular';
   src: url('/assets/ArianLT-Regular.eot');
   src: url('/assets/ArianLT-Regular Regular.ttf') format('truetype');
   src: url('/assets/ArianLT-Regular.eot?#iefix') format('embedded-opentype'),
@@ -11,7 +11,7 @@
 }
 
 * {
-  font-family: 'ArianLT' !important;
+  font-family: 'ArianLT-Regular' !important;
 }
 
 @keyframes fadein {
