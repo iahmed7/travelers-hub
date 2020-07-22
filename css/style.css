@@ -1,10 +1,17 @@
-@font-face{
-  font-family: "Arian";
-  src: url("/assets/ArianLT-Regular Regular.ttf");
+@font-face {
+  font-family: 'ArianLT';
+  src: url('/assets/ArianLT-Regular.eot');
+  src: url('/assets/ArianLT-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/assets/ArianLT-Regular.woff2') format('woff2'),
+      url('/assets/ArianLT-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
+
 * {
-  font-family: 'Arian' !important;
+  font-family: 'ArianLT' !important;
 }
 
 @keyframes fadein {
