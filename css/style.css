@@ -160,6 +160,11 @@ background-size: cover;
   /* background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
 }
 
+/* .hero-img{
+  background-color: gold;
+  padding-left: 40px;
+} */
+
 #about {
 	padding: 70px 0px;
   background-image: url(../assets/about-bg.jpg);
