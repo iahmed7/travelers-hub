@@ -255,11 +255,11 @@ section {
 
 .scrolldown {
   position: absolute;
-  bottom: 35px;
-  /* left: 50%; */
+  /* bottom: 35px; */
+  left: 50%;
   /* background-color: white; */
-  margin-left: 21px;
-  width: 10px;
+  /* margin-left: 21px; */
+  width: 30px;
   height: 30px;
   /* background-color: blue; */
   transform: translateY(-0px) translateX(-50%) rotate(45deg);
@@ -316,7 +316,7 @@ section {
 
 @media (min-width: 1600px) {
   .scrolldown {
-    bottom: 90px;
+    /* bottom: 90px; */
   }
 }
 
@@ -331,7 +331,7 @@ section {
 
 @media (max-width: 991px) {
   .scrolldown {
-    bottom: -65px;
+    /* bottom: -65px; */
   }
 }
 
@@ -354,7 +354,7 @@ section {
     width: 70%;
   }
   .scrolldown {
-    bottom: -90px;
+    /* bottom: -90px; */
   }
 }
 
@@ -364,28 +364,28 @@ section {
   }
   .scrolldown {
     /* background-color: chartreuse; */
-    bottom: -110px;
+    /* bottom: -110px; */
   }
 }
 
 @media (max-width: 545px) {
   .scrolldown {
     /* background-color: chartreuse; */
-    bottom: -105px;
+    /* bottom: -105px; */
   }
 }
 
 @media (max-width: 500px) {
   .scrolldown {
     /* background-color: chartreuse; */
-    bottom: -100px;
+    /* bottom: -100px; */
   }
 }
 
 @media (max-width: 455px) {
   .scrolldown {
     /* background-color: chartreuse; */
-    bottom: -155px;
+    /* bottom: -155px; */
   }
 }
 
