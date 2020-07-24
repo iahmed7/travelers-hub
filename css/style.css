@@ -314,6 +314,12 @@ section {
   }
 }
 
+@media (max-width: 1600px) {
+  .scrolldown {
+    bottom: -65px;
+  }
+}
+
 @media (max-width: 991px) {
   #hero .hero-img {
     text-align: center;
@@ -368,6 +374,21 @@ section {
     bottom: -105px;
   }
 }
+
+@media (max-width: 500px) {
+  .scrolldown {
+    /* background-color: chartreuse; */
+    bottom: -130px;
+  }
+}
+
+@media (max-width: 455px) {
+  .scrolldown {
+    /* background-color: chartreuse; */
+    bottom: -155px;
+  }
+}
+
 
 
 .mobile-nav-toggle {
