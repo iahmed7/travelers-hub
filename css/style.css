@@ -325,7 +325,7 @@ section {
 
 @media (max-width: 991px) {
   .scrolldown {
-    bottom: -90px;
+    bottom: -70px;
   }
 }
 
@@ -348,7 +348,7 @@ section {
     width: 70%;
   }
   .scrolldown {
-    bottom: -120px;
+    bottom: -95px;
   }
 }
 
@@ -358,9 +358,17 @@ section {
   }
   .scrolldown {
     /* background-color: chartreuse; */
-    bottom: -120px;
+    bottom: -130px;
   }
 }
+
+@media (max-width: 575px) {
+  .scrolldown {
+    /* background-color: chartreuse; */
+    bottom: -110px;
+  }
+}
+
 
 .mobile-nav-toggle {
   position: fixed;
