@@ -314,9 +314,9 @@ section {
   }
 }
 
-@media (max-width: 1600px) {
+@media (min-width: 1600px) {
   .scrolldown {
-    bottom: -65px;
+    bottom: 90px;
   }
 }
 
