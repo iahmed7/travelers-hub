@@ -365,7 +365,7 @@ section {
 @media (max-width: 575px) {
   .scrolldown {
     /* background-color: chartreuse; */
-    bottom: -110px;
+    bottom: -130px;
   }
 }
 
