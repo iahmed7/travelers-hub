@@ -255,7 +255,7 @@ section {
 
 .scrolldown {
   position: absolute;
-  bottom: 30px;
+  bottom: 35px;
   /* left: 50%; */
   /* background-color: white; */
   margin-left: 21px;
@@ -280,7 +280,7 @@ section {
 
 .scrolldown span:nth-child(1) 
 {
-  transform: translate(-15px, -15px);
+  transform: translate(-10px, -10px);
   animation-delay: -0.2s;
 }
 
@@ -325,7 +325,7 @@ section {
 
 @media (max-width: 991px) {
   .scrolldown {
-    bottom: -70px;
+    bottom: -65px;
   }
 }
 
@@ -348,7 +348,7 @@ section {
     width: 70%;
   }
   .scrolldown {
-    bottom: -95px;
+    bottom: -90px;
   }
 }
 
@@ -358,14 +358,14 @@ section {
   }
   .scrolldown {
     /* background-color: chartreuse; */
-    bottom: -130px;
+    bottom: -110px;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 545px) {
   .scrolldown {
     /* background-color: chartreuse; */
-    bottom: -130px;
+    bottom: -105px;
   }
 }
 
