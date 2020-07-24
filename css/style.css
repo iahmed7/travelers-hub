@@ -214,10 +214,11 @@ section {
 
 #hero a {
   color: white;
-  animation: pulse 4s infinite;
+  font-size: 13px;
+  /* animation: pulse 4s infinite; */
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
   0% {
     color: white;
   }
@@ -227,7 +228,7 @@ section {
   100% {
     color: darksalmon;
   }
-}
+} */
 
 
 #hero h2 {
@@ -251,13 +252,14 @@ section {
   color: #fff;
 }
 
+
 .scrolldown {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   /* left: 50%; */
   /* background-color: white; */
   margin-left: 21px;
-  width: 30px;
+  width: 10px;
   height: 30px;
   /* background-color: blue; */
   transform: translateY(-0px) translateX(-50%) rotate(45deg);
@@ -268,11 +270,11 @@ section {
   top: 0;
   left: 0;
   display: block;
-  width: 80%;
-  height: 80%;
+  width: 40%;
+  height: 40%;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
-  animation: animate 1.5s linear infinite;
+  animation: animate 1.3s linear infinite;
 
 }
 
@@ -291,7 +293,7 @@ section {
 .scrolldown span:nth-child(3) 
 {
   transform: translate(15px, 15px);
-  animation-delay: 0;
+  animation-delay: -0.1s;
 }
 
 @keyframes animate {
