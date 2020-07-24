@@ -212,6 +212,24 @@ section {
   margin-bottom: 30px;
 }
 
+#hero a {
+  color: white;
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: white;
+  }
+  50% {
+    color: lightsalmon;
+  }
+  100% {
+    color: darksalmon;
+  }
+}
+
+
 #hero h2 {
   color:gray;
   font-size: 22px;
@@ -233,6 +251,67 @@ section {
   color: #fff;
 }
 
+.scrolldown {
+  position: absolute;
+  bottom: 20px;
+  /* left: 50%; */
+  /* background-color: white; */
+  margin-left: 21px;
+  width: 30px;
+  height: 30px;
+  /* background-color: blue; */
+  transform: translateY(-0px) translateX(-50%) rotate(45deg);
+}
+
+.scrolldown span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 80%;
+  height: 80%;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  animation: animate 1.5s linear infinite;
+
+}
+
+.scrolldown span:nth-child(1) 
+{
+  transform: translate(-15px, -15px);
+  animation-delay: -0.2s;
+}
+
+/* .scrolldown span:nth-child(2) 
+{
+  transform: translate(0, 0);
+  animation-delay: -0.2s;
+} */
+
+.scrolldown span:nth-child(3) 
+{
+  transform: translate(15px, 15px);
+  animation-delay: 0;
+}
+
+@keyframes animate {
+  0%{
+    top: -5px;
+    left: -5px;
+    opacity: 0;
+  }
+  25%{
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+  }
+  50%, 100%{
+    top: 5px;
+    left: 5px;
+    opacity: 0;
+  }
+}
+
 @media (max-width: 991px) {
   #hero .hero-img {
     text-align: center;
@@ -241,6 +320,13 @@ section {
     width: 50%;
   }
 }
+
+@media (max-width: 991px) {
+  .scrolldown {
+    bottom: -90px;
+  }
+}
+
 
 @media (max-width: 768px) {
   #hero {
@@ -259,11 +345,18 @@ section {
   #hero .hero-img img {
     width: 70%;
   }
+  .scrolldown {
+    bottom: -120px;
+  }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
+  }
+  .scrolldown {
+    /* background-color: chartreuse; */
+    bottom: -120px;
   }
 }
 
