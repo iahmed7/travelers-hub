@@ -231,9 +231,9 @@ section {
 } */
 
 
-#hero h2 {
+#hero h5 {
   color:white;
-  font-size: 22px;
+  /* font-size: 22px; */
   font-family: ArianLT, 'Avenir Next LT Pro', sans-serif !important;
 }
 
