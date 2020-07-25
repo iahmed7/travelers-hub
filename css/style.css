@@ -232,7 +232,7 @@ section {
 
 
 #hero h2 {
-  color:gray;
+  color:white;
   font-size: 22px;
   font-family: ArianLT, 'Avenir Next LT Pro', sans-serif !important;
 }
@@ -327,6 +327,9 @@ section {
   #hero .hero-img img {
     width: 50%;
   }
+  .slogan-cont{
+    width: 70%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -339,7 +342,7 @@ section {
 @media (max-width: 768px) {
   #hero {
     -moz-text-align-last: center;
-    text-align-last: left;
+    text-align-last: center;
   }
   #hero h1 {
     font-size: 28px;
