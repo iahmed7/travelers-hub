@@ -322,7 +322,7 @@ section {
 
 @media (max-width: 991px) {
   #hero .hero-img {
-    text-align: center;
+    text-align: left;
   }
   #hero .hero-img img {
     width: 50%;
@@ -339,7 +339,7 @@ section {
 @media (max-width: 768px) {
   #hero {
     -moz-text-align-last: center;
-    text-align-last: center;
+    text-align-last: left;
   }
   #hero h1 {
     font-size: 28px;
