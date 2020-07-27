@@ -165,12 +165,47 @@ background-size: cover;
 } */
 
 #about {
-	padding: 70px 0px;
-  background-image: url(../assets/about-bg.jpg);
+  /* display: block; */
+  /* padding: 150px 10px; */
+
+  background-color: rgba(38, 38, 38, 1);
+  /* background: white; */
+  /* background-image: url(../assets/about-tmp-1.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
-  background-attachment: fixed;
+	background-size: contain; */
+  /* background-attachment: fixed; */
+  /* background-size: 50% 100%; */
+  /* background-position-y: -50%; */
+  /* width: 100vw;
+  height: 100vh; */
+  /* padding: 0 0 0 0; */
+
 }
+
+.about-cont {
+  /* height: 100vh; */
+  /* padding: 100px 50px 0px 0px; */
+  /* padding-top: 300px; */
+  /* background-color: black; */
+  
+}
+
+.about-us-cont {
+  /* padding-top: 70px; */
+  /* background-color: blueviolet; */
+}
+
+/* .about-img-cont{
+  position: relative;
+}
+
+.about-img-cont .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
 
 
 /* .header.active {
@@ -191,14 +226,25 @@ background-size: cover;
 .hero-cont{
   height: 100vh;
   padding-bottom: 25%;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */ 
   /* width: 100vw; */
 	/* position: relative;
   z-index: 1; */
 }
 
+.card {
+  /* box-shadow: 5px 5px 5px #1a1d1d; */
+  background-color: rgba(38, 38, 38, 1);
+  color: white;
+  height: 100vh;
+}
+
 section {
-  padding: 20px 0;
-  overflow: hidden;
+  /* padding: 20px 0; */
+  /* overflow: hidden; */
 }
 
 #hero h1 {
