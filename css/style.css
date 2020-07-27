@@ -393,7 +393,7 @@ section {
 }
 
 @media (max-width: 991px) {
-  body{
+  html, body{
     overflow-x: hidden;
   }
   #hero .hero-img {
@@ -419,6 +419,9 @@ section {
 
 
 @media (max-width: 768px) {
+  html, body{
+    overflow-x: hidden;
+  }
   #hero {
     -moz-text-align-last: center;
     text-align-last: center;
@@ -441,6 +444,9 @@ section {
 }
 
 @media (max-width: 575px) {
+  html, body{
+    overflow-x: hidden;
+  }
   #hero .hero-img img {
     width: 80%;
   }
@@ -451,6 +457,9 @@ section {
 }
 
 @media (max-width: 545px) {
+  html, body{
+    overflow-x: hidden;
+  }
   .scrolldown {
     /* background-color: chartreuse; */
     /* bottom: -105px; */
