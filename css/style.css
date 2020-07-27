@@ -393,6 +393,9 @@ section {
 }
 
 @media (max-width: 991px) {
+  body{
+    overflow-x: hidden;
+  }
   #hero .hero-img {
     text-align: left;
   }
