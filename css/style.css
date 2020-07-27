@@ -258,7 +258,7 @@ section {
 }
 
 .serv-content{
-  margin: 0px 50px;
+  margin: 0px 100px;
   margin-bottom: 40px;
   background-color: black;
   /* margin-bottom: 100px; */
@@ -407,6 +407,10 @@ section {
 @media (max-width: 991px) {
   .scrolldown {
     /* bottom: -65px; */
+  }
+
+  .serv-content{
+    margin: 0px 50px;
   }
 }
 
