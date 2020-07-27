@@ -479,7 +479,7 @@ section {
   top: 75px;
   z-index: 9998;
   border: 0;
-  background: none;
+  background: blue;
   font-size: 35px;
   transition: all 0.4s;
   outline: none !important;
