@@ -10,7 +10,7 @@
   /* font-display: swap; */
 }
 
-* {
+body {
   font-family: 'Electrolize' !important;
 }
 
@@ -71,7 +71,7 @@ a:hover {
 }
 
 #header {
-  z-index: 10000;
+  z-index: 100;
   transition: all 0.5s ease-in-out;
   padding: 16px 0;
   /* background: black; */
@@ -481,14 +481,14 @@ section {
 }
 
 
-
 .mobile-nav-toggle {
   position: fixed;
   right: 35px;
-  top: 75px;
-  z-index: 9998;
+  top: 80px;
+  z-index: 102;
   border: 0;
   background: black;
+  color: #fdc134;
   font-size: 35px;
   transition: all 0.4s;
   outline: none !important;
@@ -497,25 +497,43 @@ section {
   text-align: right;
 }
 
+
+
+
 .mobile-nav-toggle i {
   color: #fdc134;
 }
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  z-index: 9999;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+  padding-top: 100px;
+  z-index: 101;
   overflow-y: auto;
-  background: #fff;
+  background: black;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
-  border-radius: 10px;
-  padding: 10px 0;
+  /* border-radius: 10px; */
+  /* padding: 10px 0; */
 }
+
+.icofont-close {
+  color: blue;
+}
+
+/* .icofont-close {
+  position: relative;
+  color:white;
+  border: 2px solid black;
+  z-index: 9998;
+  position: fixed;
+  right: 35px;
+  top: 80px;
+} */
 
 .mobile-nav * {
   margin: 0;
@@ -526,7 +544,7 @@ section {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #213b52;
+  color: white;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -580,7 +598,7 @@ section {
 .mobile-nav-overly {
   width: 100%;
   height: 100%;
-  z-index: 9997;
+  z-index: 100;
   top: 0;
   left: 0;
   position: fixed;
