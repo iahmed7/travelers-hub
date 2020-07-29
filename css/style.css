@@ -503,6 +503,7 @@ section {
 
   .hero-img{
     height: 150px;
+    width: 100%;
   }
   .scrolldown {
     /* background-color: chartreuse; */
