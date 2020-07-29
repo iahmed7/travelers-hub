@@ -504,7 +504,7 @@ section {
 
 .mobile-nav-toggle {
   position: fixed;
-  right: 35px;
+  right: 30px;
   top: 80px;
   z-index: 102;
   border: 0;
