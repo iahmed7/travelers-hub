@@ -400,9 +400,12 @@ section {
   #hero .hero-img {
     text-align: left;
   }
-  #hero .hero-img img {
+  /* #hero {
+    height: 100vh;
+  } */
+  /* #hero .hero-img img {
     width: 50%;
-  }
+  } */
   /* .slogan-cont{
     align-items: right;
   } */
@@ -496,6 +499,10 @@ section {
 @media (max-width: 545px) {
   html, body{
     overflow-x: hidden;
+  }
+
+  .hero-img{
+    height: 150px;
   }
   .scrolldown {
     /* background-color: chartreuse; */
