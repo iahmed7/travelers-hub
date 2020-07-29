@@ -402,9 +402,9 @@ section {
   #hero .hero-img img {
     width: 50%;
   }
-  .slogan-cont{
-    width: 70%;
-  }
+  /* .slogan-cont{
+    align-items: right;
+  } */
 }
 
 @media (max-width: 991px) {
@@ -422,7 +422,7 @@ section {
   html, body{
     overflow-x: hidden;
   }
-  #hero {
+  .hero-img {
     -moz-text-align-last: center;
     text-align-last: center;
   }
@@ -453,11 +453,11 @@ section {
     /* background-color: thistle; */
   }
   .hero-t1 {
-    /* text-align: left; */
-    position:absolute;
+    text-align: left;
+    /* position:absolute;
     left:15px;
-    top: 30px;
-    /* background-color: teal; */
+    top: 30px; */
+    background-color: teal;
   }
   .scrolldown {
     /* background-color: chartreuse; */
