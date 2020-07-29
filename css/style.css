@@ -501,10 +501,10 @@ section {
     overflow-x: hidden;
   }
 
-  .hero-img{
+  /* .hero-img{
     height: 150px;
     width: 500px;
-  }
+  } */
   .scrolldown {
     /* background-color: chartreuse; */
     /* bottom: -105px; */
