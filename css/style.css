@@ -433,6 +433,7 @@ section {
     text-align-last: center;
     /* background-color: turquoise; */
     padding-right: 100px;
+    background-color: yellow;
   }
   #hero h1 {
     font-size: 28px;
