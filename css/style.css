@@ -422,6 +422,9 @@ section {
   html, body{
     overflow-x: hidden;
   }
+  #hero .hero-cont{
+    height: 80vh;
+  }
   .hero-img {
     -moz-text-align-last: center;
     text-align-last: center;
