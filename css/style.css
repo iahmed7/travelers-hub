@@ -425,6 +425,7 @@ section {
   .hero-img {
     -moz-text-align-last: center;
     text-align-last: center;
+    background-color: turquoise;
   }
   #hero h1 {
     font-size: 28px;
