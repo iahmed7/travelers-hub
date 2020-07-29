@@ -463,7 +463,7 @@ section {
     overflow-x: hidden;
   }
   #hero{
-    height: 80vh;
+    height: 90vh;
     /* padding-bottom: 400px; */
     /* background-color: yellow; */
   }
@@ -482,6 +482,14 @@ section {
   .scrolldown {
     /* background-color: chartreuse; */
     /* bottom: -110px; */
+  }
+}
+
+@media (max-width: 560px){
+  #hero{
+    height: 80vh;
+    /* padding-bottom: 400px; */
+    background-color: yellow;
   }
 }
 
