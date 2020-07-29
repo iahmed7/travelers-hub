@@ -428,15 +428,15 @@ section {
   .hero-img {
     -moz-text-align-last: center;
     text-align-last: center;
-    background-color: turquoise;
+    /* background-color: turquoise; */
     padding: 0;
   }
   .hero-bag {
     -moz-text-align-last: center;
     text-align-last: center;
     /* background-color: turquoise; */
-    padding-right: 100px;
-    background-color: yellow;
+    padding-right: 90px;
+    /* background-color: yellow; */
   }
   #hero h1 {
     font-size: 28px;
@@ -469,7 +469,7 @@ section {
     /* position:absolute;
     left:15px;
     top: 30px; */
-    background-color: teal;
+    /* background-color: teal; */
   }
   .scrolldown {
     /* background-color: chartreuse; */
