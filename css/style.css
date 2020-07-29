@@ -462,6 +462,11 @@ section {
   html, body{
     overflow-x: hidden;
   }
+  #hero{
+    height: 80vh;
+    /* padding-bottom: 400px; */
+    /* background-color: yellow; */
+  }
   .hero-img {
     /* width: 100%; */
     padding-right: 30px;
